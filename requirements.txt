@@ -1,0 +1,6 @@
+PyYAML
+dateparser
+tqdm
+beautifulsoup4
+Pyzotero
+thefuzz
