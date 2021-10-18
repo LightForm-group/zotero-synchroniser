@@ -101,7 +101,7 @@ def get_zotero_records() -> List[dict]:
     results = zot.everything(zot.top())
     for record in results:
         if "DOI" in record["data"]:
-            url = f'https://{record["data"]["DOI"]}'
+            url = f'https://doi.org/{record["data"]["DOI"]}'
         else:
             url = record["data"]["url"]
         records.append({"title": record["data"]["title"],
